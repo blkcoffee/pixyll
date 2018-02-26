@@ -1,0 +1,13 @@
+---
+layout:		post
+title:		Welcome
+date: 		2018-02-25 09:00:00 +0800
+summary:	Welcome post
+category: 	welcome about-me 
+---
+Hey,
+
+I'm Thom and I've started this blog to document my learnings on cyber security topics. I will be uploading posts as I complete tasks between my studies. 
+My first post should be come in a few days and will be on the Kioptrix Level 2 solution. I completed Kioptrix Level 1 before I thought of starting this blog, I will likely return to write-up how I completed it.
+
+Hope you enjoy my posts!
