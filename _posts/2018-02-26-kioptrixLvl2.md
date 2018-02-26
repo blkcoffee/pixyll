@@ -28,11 +28,11 @@ set rport 3306 #This is the open mysql port
 run
 {% endhighlight %}
 
-![mysql version](/assets/mysql version result.PNG){:class="img-responsive"}
+![mysql](/assets/mysql version result.PNG){:class="img-responsive"}
 
 Well, that didn't really get us anywhere. At least we know it is mySQL. Let's launch a browser, go to the IP address and see what we are greeted with. 
 
-![landing page](/assets/web landing page.PNG){:class="img-responsive"}
+![landing](/assets/web landing page.PNG){:class="img-responsive"}
 
 A login page. Let's use burpsuite, intercept the login and see what we can find out. 
 
