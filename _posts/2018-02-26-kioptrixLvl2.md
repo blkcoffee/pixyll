@@ -8,7 +8,7 @@ Today we are going to solve Kioptrix Level 2. First we need to download the VM f
 
 We are met with this image:
 
-![Kioptrix Login]({{ "/assets/kioptrix-start.png" | absolute_url }})
+![Kioptrix Login](/assets/kioptrix-start.png){:class="img-responsive"}
 
 Let's get started. From my Kali machine I'm going to run an nmap scan, this will scan the entire network and we should be able to find the IP address of the Kioptrix machine. 
 
