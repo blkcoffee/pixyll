@@ -2,7 +2,7 @@
 layout:		post
 title:  	"Kioptrix Level 2"
 date: 		2018-02-26 14:00:00 +0800
-summary:	Today we are going to solve Kioptrix Level 2. First we need to... <a href="https://blkcoffee.github.io/kioptrix/2018/02/26/kioptrixLvl2/">Read more...</a>
+summary:	Today we are going to solve Kioptrix Level 2. First we need to...
 categories:	kioptrix
 ---
 Today we are going to solve Kioptrix Level 2. First we need to download the VM from the kioptrix website, add it to VMware and power it up!
