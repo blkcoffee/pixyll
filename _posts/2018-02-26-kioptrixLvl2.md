@@ -23,21 +23,27 @@ To do this we're going to use Metasploit. First we need to find out what version
 use auxiliary/scanner/mysql/mysql_version
 #We then need to set a couple of parameters
 set rhosts 192.168.1.101 #	This is the Kioptrix Machine IP 
-						 #	that we found in the nmap scan
+			 #	that we found in the nmap scan
 set rport 3306 #This is the open mysql port
 run
 {% endhighlight %}
-
+<br>
+<br>
 ![mysql](/assets/mysql version result.PNG){:class="img-responsive"}
-
+<br>
+<br>
 Well, that didn't really get us anywhere. At least we know it is mySQL. Let's launch a browser, go to the IP address and see what we are greeted with. 
-
+<br>
+<br>
 ![landing](/assets/web landing page.PNG){:class="img-responsive"}
-
+<br>
+<br>
 A login page. Let's use burpsuite, intercept the login and see what we can find out. 
-
+<br>
+<br>
 ![burpsuite](/assets/burpsuite.PNG){:class="img-responsive"}
-
+<br>
+<br>
 Burpsuite has intercepted the login! Let's use this with sqlmap to try and get a workaround. 
 
 In terminal we write:
