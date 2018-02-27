@@ -80,7 +80,7 @@ Now we've got a netcat connection going! Let's get some more information about t
 <br><br>
 ![uname](/assets/kernel.PNG){: .center-image }
 <br><br>
-We now know it's Linux Kernel 2.6.9-55 - Let's google an exploit! <a href="http://www.exploit-db.com/exploits/9542/">This exploit</a> seems like it's gonna work for us! It's been tested on a similar machine to this one. <br>Let's save that to "/var/www/html", start Apache on our Kali machine and download the exploit through the session we created with netcat.
+We now know it's Linux Kernel 2.6.9-55 - Let's google an exploit! <a href="http://www.exploit-db.com/exploits/9542/">This exploit</a> seems like it's gonna work for us! It's been tested on a similar machine to this one. <br><br>Let's save that to "/var/www/html", start Apache on our Kali machine and download the exploit through the session we created with netcat.
 
 Okay, to download it let's first cd to /tmp. Now we can wget from our apache server, compile and execute!
 
