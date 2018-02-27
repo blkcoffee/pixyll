@@ -2,7 +2,7 @@
 layout:		post
 title:		Welcome
 date: 		2018-02-25 09:00:00 +0800
-summary:	I'm Thom and I've started this blog to document my learnings on cyber security topics. <a href="https://blkcoffee.github.io/welcome%20about-me/2018/02/25/welcome/">Read more...</a>
+summary:	I'm Thom and I've started this blog to document my learnings on cyber security topics.
 category: 	welcome about-me 
 ---
 Hey,
