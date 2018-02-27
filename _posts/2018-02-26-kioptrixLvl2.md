@@ -19,12 +19,10 @@ The nmap scan has brought back a number of open ports. The most interesting here
 
 To do this we're going to use Metasploit. First we need to find out what version of MySQL is on the Kioptrix machine. We will do this with the following
 
-{% highlight ruby %}
+{% highlight %}
 use auxiliary/scanner/mysql/mysql_version
-#We then need to set a couple of parameters
-set rhosts 192.168.1.101 #	This is the Kioptrix Machine IP 
-			 #	that we found in the nmap scan
-set rport 3306 #This is the open mysql port
+set rhosts 192.168.1.101
+set rport 3306
 run
 {% endhighlight %}
 <br>
