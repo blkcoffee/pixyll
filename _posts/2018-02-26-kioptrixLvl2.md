@@ -87,6 +87,5 @@ Okay, to download it let's first cd to /tmp. Now we can wget from our apache ser
 Done! We are now root. I'll just change the password and login via the VM.
 
 ![have root](/assets/haveroot.PNG){: .center-image }
-
-
+<br><br>
 Thanks guys!
