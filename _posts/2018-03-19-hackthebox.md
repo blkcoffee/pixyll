@@ -6,7 +6,7 @@ summary:	I've found a new site made for penetration testing called HackTheBox.eu
 categories:	hackthebox
 ---
 
-Hey guys,
+Hey everyone,
 
 I've found a new site made for penetration testing called <a href="https://www.hackthebox.eu">HackTheBox.eu</a>. This is the most full-featured site I've found for self-teaching pentesting and has a fantastic community built around it.
 
@@ -20,4 +20,4 @@ Unfortunately, due to the nature of the website, I can't upload any of the walkt
 
 I've really been enjoying my time using HackTheBox to teach myself new methods and skills and would recommend giving it a shot.
 
-Thanks guys.
+Thanks and good luck hacking.
