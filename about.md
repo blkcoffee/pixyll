@@ -8,3 +8,7 @@ tags: about
 I am currently in my final year at Edith Cowan University studying a Bachelor of Computer Science (Cyber Security).
 
 This blog is to document my learnings outside of formal learning and to hopefully help others solve some of the challenges I faced during these learnings.
+
+My HackTheBox profile is: 
+
+<script src="https://www.hackthebox.eu/badge/28155"></script>
