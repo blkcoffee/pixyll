@@ -11,5 +11,5 @@ This blog is to document my learnings outside of formal learning and to hopefull
 
 My HackTheBox profile is: 
 
-<script src="https://www.hackthebox.eu/badge/28155"></script>
+<img src="https://www.hackthebox.eu/badge/image/28155" alt="Hack The Box">
 

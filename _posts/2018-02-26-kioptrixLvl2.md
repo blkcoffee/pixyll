@@ -88,4 +88,4 @@ Done! We are now root. I'll just change the password and login via the VM.
 
 ![have root](/assets/haveroot.PNG){: .center-image }
 <br><br>
-Thanks guys!
+Thanks!

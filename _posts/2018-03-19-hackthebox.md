@@ -20,4 +20,4 @@ Unfortunately, due to the nature of the website, I can't upload any of the walkt
 
 I've really been enjoying my time using HackTheBox to teach myself new methods and skills and would recommend giving it a shot.
 
-Thanks and good luck hacking.
+Thanks, and good luck hacking.

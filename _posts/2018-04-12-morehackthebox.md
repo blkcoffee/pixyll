@@ -13,8 +13,7 @@ Yesterday and today, I've been getting back into <a href="https://www.hackthebox
 The community is as helpful as ever, making sure you can get a foothold if you get stuck, without spoiling too much for you. 
 
 My HTB Badge is:
-
-<script src="https://www.hackthebox.eu/badge/28155"></script>
-
+<img src="https://www.hackthebox.eu/badge/image/28155" alt="Hack The Box">
+<br>
 
 Thanks!
